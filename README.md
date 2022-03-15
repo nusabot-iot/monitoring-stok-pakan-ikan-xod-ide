@@ -38,6 +38,6 @@ Jika kamu memiliki kendala dalam penggunaan proyek ini ataupun memiliki usul fit
 
 Didistribusikan dibawah MIT Licence. Silahkan lihat [LICENCE](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/LICENSE) untuk informasi lebih lanjut.
 
-## Contact
+## Kontak
 
 Nusabot - [halo@nusabot.id](mailto:halo@nusabot.id)
