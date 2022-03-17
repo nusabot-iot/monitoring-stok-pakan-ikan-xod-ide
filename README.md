@@ -10,17 +10,21 @@ Menggunakan ESP8266 sebagai microcontroller dan HC-SR04 sebagai sensor jarak unt
 
 2. Buka berkas menggunakan web browser yang ada pada `webpage/index.html`
 
-   ![image-20220317095437788](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/webpage/Screenshot.png)
+   ![WebApp](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/webpage/Screenshot.png)
 
 ## Instalasi firmware
 
 1. Buka berkas menggunakan XOD IDE yang ada pada `firmware/main.xodball`
 
-2. Upload ke ESP8266 (dapat menggunakan development board seperti NodeMCU, Wemos, dsb)
+   ![Firmware](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/firmware/Firmware%20XOD.png)
+   
+3. Ubah SSID dan Pass. Ubah juga broker serta topic jika diperlukan. Sesuaikan address I2C nya pada node LCD I2C.
 
-3. Rakit komponen seperti berikut:
+4. Upload ke ESP8266 (dapat menggunakan development board seperti NodeMCU, Wemos, dsb)
 
-   ![image-20220317095437788](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/firmware/Wiring.png)
+5. Rakit komponen seperti berikut:
+
+   ![Wiring](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/firmware/Wiring.png)
    
 ## Penggunaan
 
