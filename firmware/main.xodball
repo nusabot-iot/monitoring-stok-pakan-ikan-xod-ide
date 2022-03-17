@@ -1,7 +1,4 @@
 {
-  "description": "IoT Pemantau Gudang Pakan Ikan",
-  "license": "MIT",
-  "name": "pemantau-sisa-stok-pakan-ikan",
   "patches": {
     "@/main": {
       "links": {
@@ -261,8 +258,27 @@
           "type": "xod/units/m-to-cm"
         }
       },
+      "comments": {
+        "ryNcDmgfq": {
+          "id": "ryNcDmgfq",
+          "position": {
+            "x": 8,
+            "y": -2,
+            "units": "slots"
+          },
+          "size": {
+            "width": 7,
+            "height": 2,
+            "units": "slots"
+          },
+          "content": "Data Akan dipublish setiap 2 detik sekali\n\nJarak 3cm adalah stok penuh\nJarak 30cm adalah stok kosong"
+        }
+      },
       "path": "@/main"
     }
   },
-  "version": "0.1.0"
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "IoT Pemantau Gudang Pakan Ikan",
+  "name": "pemantau-sisa-stok-pakan-ikan"
 }
