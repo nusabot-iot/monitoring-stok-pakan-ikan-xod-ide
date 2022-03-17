@@ -21,6 +21,14 @@ Menggunakan ESP8266 sebagai microcontroller dan HC-SR04 sebagai sensor jarak unt
 3. Rakit komponen seperti berikut:
 
    ![image-20220317095437788](https://github.com/nusabot-iot/monitoring-stok-pakan-ikan-xod-ide/blob/main/firmware/Wiring.png)
+   
+## Penggunaan
+
+Kamu bisa menambahkan sebanyak apapun gudang yang ingin dipantau. Bukan hanya gudang, masing-masing tempat pakan ikan pun bisa kamu pantau.
+
+1. Buat widget melalui HTML dan atur `id` dari tiap widget.
+2. Buat pengkondisian pada `mqtt.js` untuk masing-masing topic.
+3. Buat kode program pada XOD untuk tiap alat dengan topic yang berbeda pada setiap tempat penyimpanan pakan ikan.
 
 ## Dibuat menggunakan
 
